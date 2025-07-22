@@ -1,0 +1,13 @@
+ def test_add_new_book_add_two_books - проверка добавления двух книг в словарь без указания жанра,
+def test_add_new_book_add_book_duplicate - проверка невозможности добавления одной и той же книги в словарь,
+def test_add_new_book_add_book_with_big_name_and_without_name - проверка невозможности добавления названия книги больше 40 символов, книги без названия,
+def test_set_book_genre_one_book_with_genre - проверка установки жанра книги, существующей в словаре,
+def test_set_book_genre_with_incorrect_book_with_right_genre - жанр книги не устанавливается, если книги нет в словаре,
+def test_set_book_genre_with_correct_book_with_incorrect_genre - жанр книги не устанавливается если его нет в списке genre,
+def test_get_book_genre_with_correct_book_and_correct_genre - вывод жанра книги по ее имени,
+def test_get_book_get_books_with_specific_genre - выводит список книг с определенным жанром,
+def test_get_books_genre_with_three_books_and_three_genre - выводит текущий словарь,
+def test_get_books_for_children_with_one_book_for_children - возвращает книги подходящие детям,
+ef test_add_book_in_favorites_one_book - добавление книги в избранное,
+def test_delete_book_from_favorites_one_book - удаление книги из избранного,
+def test_get_list_of_favorites_books_with_two_books - получение списка избранных книг 
